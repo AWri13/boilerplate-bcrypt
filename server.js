@@ -16,9 +16,7 @@ const hash = bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
     bcrypt.compare(myPlaintextPassword, hash, (err, res) => {
     console.log(res);
     });
-
 });
-
 
 
 //END_ASYNC
